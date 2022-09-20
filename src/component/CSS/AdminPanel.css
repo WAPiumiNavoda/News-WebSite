@@ -1,0 +1,46 @@
+.admin_div{
+    width: 100%;
+    height: 210px;
+    /* background-color: aliceblue; */
+}
+.admin_div1{
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 95%;
+    background-color: rgb(245, 247, 250);
+}
+.row_admin::after{
+    content: "";
+    display: table;
+    background-color: none;
+    clear: both;
+}
+
+.col_admin{
+    float: left;
+    width: 95%;
+    margin: 20px;
+    color: black;
+    height: 150px; 
+}
+
+.col1_admin{
+    float: left;
+    width: 10%;
+    color: black;
+    background-color: rgb(197, 193, 193);
+    height: 150px;
+    margin-bottom: 10px;
+    background-image: url('https://i.ibb.co/x2DcBgL/photo-1633332755192-727a05c4013d.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.add_btn{
+    margin-left: 1200px;
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    border: 0;
+    color: white;
+}

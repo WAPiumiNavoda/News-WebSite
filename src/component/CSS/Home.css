@@ -1,0 +1,140 @@
+
+.home_div{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://i.ibb.co/5KR6fLL/google-news-t.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   
+   .home_header{
+       font-size: 40px;
+       padding-top: 150px;
+       color: rgb(250, 163, 12);
+       text-align: center;
+   }
+   
+   .home2_header{
+     font-size: 20px;
+     padding-top: 10px;
+     color: white;
+     text-align: center;
+   }
+   
+   .home_button{
+       width: 200px;
+       padding: 20px;
+       color: white;
+       margin-left: 740px;
+       background-color: transparent;
+       border: 1px solid white;
+   }
+   
+   .lates_div{
+    margin-top: 20px;
+    width: 100%;
+    margin: 3px;
+    padding-top: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border-left: 5px solid #0e2adf ;
+
+   }
+   .contact_div{
+    width: 100%;
+    height: 600px;
+    /* background-color: aliceblue; */
+   }
+.column{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+   float: left;
+   width: 28.33%;
+   margin-left: 70px;
+   margin-top: 20px;
+   color: rgb(0, 0, 0);
+   background-color: white;
+   height: 560px; 
+   background-image: url("https://i.ibb.co/VL16wrg/istockphoto-1251629816-170667a.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.6;
+ }
+
+ 
+ .row_card:after {
+   content: "";
+   display: table;
+   background-color: none;
+   clear: both;
+ }
+ .all_news{
+    width: 90%;
+    height: 275px;
+    margin-left:180px;
+    margin-bottom: 10px;
+    /* background-color: #0e2adf; */
+
+ }
+
+ .all_col{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+   float: left;
+   width: 28.33%;
+   margin-left: 5px;
+   margin-top: 10px;
+   color: black;
+   background-color: white;
+   height: 260px; 
+   background-image: url("https://i.ibb.co/VL16wrg/istockphoto-1251629816-170667a.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .all_col2{
+    /* box-shadow: 0 0 11px rgba(33,33,33,.2); */
+   float: left;
+   width: 60.33%;
+   margin-left: -30px;
+   margin-top: 20px;
+   color: black;
+   background-color: white;
+   height: 240px; 
+ }
+ 
+ .all_row:after {
+   content: "";
+   display: table;
+   background-color: none;
+   clear: both;
+ }
+ .all_col2{
+    padding-left: 25px;
+    font-size: 20px;
+ }
+
+ .all_h3{
+    font-size: 15px;
+    padding-right: 90px
+ }
+ .all_btn{
+    width: 130px;
+    height: 35px;
+    background-color: orange;
+    border: none;
+    padding: 0%;
+    color: white;
+ }
+
+ .contact_header{
+    padding-top: 400px;
+    padding-left: 40px;
+ }
+
+ .contact_btn{
+    margin-left: 40px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: orange;
+ }
