@@ -5,12 +5,13 @@
     background-image: url("https://i.ibb.co/5KR6fLL/google-news-t.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
    }
    
    .home_header{
        font-size: 40px;
-       padding-top: 150px;
-       color: rgb(250, 163, 12);
+       padding-top: 200px;
+       color: orange;
        text-align: center;
    }
    
@@ -22,12 +23,13 @@
    }
    
    .home_button{
-       width: 200px;
-       padding: 20px;
+       width: 160px;
+       padding: 8px;
        color: white;
-       margin-left: 740px;
+       font-size: 18px;
+       margin-left: 640px;
        background-color: transparent;
-       border: 1px solid white;
+       border: 3px solid white;
    }
    
    .lates_div{
@@ -52,13 +54,12 @@
    width: 28.33%;
    margin-left: 70px;
    margin-top: 20px;
-   color: rgb(0, 0, 0);
+   color: white;
    background-color: white;
    height: 560px; 
    background-image: url("https://i.ibb.co/VL16wrg/istockphoto-1251629816-170667a.jpg");
    background-repeat: no-repeat;
    background-size: cover;
-   opacity: 0.6;
  }
 
  
@@ -136,5 +137,12 @@
     width: 100px;
     height: 35px;
     color: white;
+    border: none;
     background-color: orange;
  }
+ .btn-primary{
+   border: none;
+   background-color: white;
+   padding-left: 80px;
+ }
+

@@ -9,7 +9,7 @@ function NewsDetails() {
                  <div className="col">
                  <img src="https://i.ibb.co/n60tVS4/download.jpg" alt="image" class="productDet_images" />
                  </div>
-                 <div className="col">
+                 <div className="col1">
                     <h1 className="produDet_h1">Beat EP</h1>
                     <p className="produDet_p">Fast Wireless Chargers For Your Phone, Tablet And Smart Watch. We have the largest selection of mobile phone and tablet accessories online.</p>
                     <hr />
