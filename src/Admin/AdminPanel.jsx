@@ -25,20 +25,9 @@ const AdminPanel = () => {
 
 
   return (
-  <div style={{height:"100%"}}>
-        <div className="admin_div">
-          <div className="row_admin">
-            <div className="col_admin">
-                <h5>ADMIN: Piumi Navoda</h5>    
-               <div className="col1_admin">
-               <h2 style={{marginLeft:"700px"}}>Admin Panel</h2>
-               </div>
-            </div>
-          </div>
-          </div>
 
    
-       <table class="table" style={{boarder:"1px solid black"}}>
+       <table className="table m-5 w-75" style={{boarder:"1px solid black"}}>
   <thead>
     <tr>
       <th scope="col">Index</th>
@@ -59,10 +48,10 @@ const AdminPanel = () => {
             <td>{news.date}</td>
             <td>{news.newsType}</td>
             <td>{news.imgURL}</td>
-            <td class="py-4 px-6 text-right">
+            <td className="py-4 px-6 text-right">
                     <Link
                       to="/admin/destinations/new"
-                      class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                      className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                     >
                       Edit
                     </Link>
@@ -72,10 +61,7 @@ const AdminPanel = () => {
         } 
   </tbody>
 </table>
-       </div>
-
-      
-  
+   
   )
 }
 

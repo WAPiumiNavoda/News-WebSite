@@ -58,10 +58,8 @@ function NewsAdd() {
   };
 
   return (
-    <div>
-           
-           <div className="admin_column" >
-       <div className='container border bodrder-secondary mt-5 bg-light pb-5'>
+      
+       <div className='container border bodrder-secondary mt-5 bg-light pb-3 w-50'>
       <h3 className='d-flex justify-content-center pt-4'>ADD NEWS</h3>
     <form onSubmit={onFormSubmit}>
         <div className="row pt-5">
@@ -124,13 +122,10 @@ function NewsAdd() {
         </div>
         
         <button type="submit" className="btn btn-primary mb-3 mt-4">Submit</button>
-    </form>
-</div>
-
-       </div>
-
-
+       </form>
       </div>
+  
+  
   )
 }
 

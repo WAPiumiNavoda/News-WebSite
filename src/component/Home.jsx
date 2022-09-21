@@ -26,24 +26,44 @@ function Home() {
              <button className='home_button' >Let's get start </button>
         </div>
 
-        {/* <div className="lates_div">
+         <div className="lates_div">
           <h1 className="latest_h1">Recent News</h1>
-        </div> */}
+        </div> 
        
-      <div className="row mt-3 mb-4">
+      {/* <div className="row mt-3 mb-4">
         <div className="col d-flex justify-content-center">
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
             All
           </button>
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
            Sport News
           </button>
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
             Tech News
           </button>
         </div>
-      </div>
+      </div> */}
         
+        
+      <div className='contact_div'>
+        <div class="row_card" >
+        <div class="column" >
+           <h2 className='contact_header'>Sports News</h2>
+            <button className='contact_btn'>Techonology</button>
+        </div>
+
+        <div class="column" >
+           <h2 className='contact_header'>Tech News</h2>
+            <button className='contact_btn'>Techonology</button>
+        </div>
+
+        <div class="column" >
+           <h2 className='contact_header'>World News</h2>
+            <button className='contact_btn'>Techonology</button>
+        </div>
+        </div>
+       </div>
+
         
         {/* Latest news */}
         <div className='all_news'>
