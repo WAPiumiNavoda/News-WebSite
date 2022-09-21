@@ -32,13 +32,13 @@ function Home() {
        
       <div className="row mt-3 mb-4">
         <div className="col d-flex justify-content-center">
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
             All
           </button>
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
            Sport News
           </button>
-          <button type="button" data-filter="*" className="btn-primary mx-1 text-dark">
+          <button type="button" data-filter="*" className="bb btn-primary mx-1 text-dark">
             Tech News
           </button>
         </div>
